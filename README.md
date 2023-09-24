@@ -1,14 +1,14 @@
 
 - ensure that the dependancies are added and started
 - add rsg_phonograph to your resources folder
-- add items to your "\qb-core\shared\items.lua"
-- add images to your "\qb-inventory\html\images"
+- add items to your "\rsg-core\shared\items.lua"
+- add images to your "\rsg-inventory\html\images"
 
-['phonograph']					= {['name'] = 'phonograph', 			  	  		['label'] = 'phonograph', 				['weight'] = 5000, 		['type'] = 'item', 		['image'] = 'phonograph.png', 				['unique'] = true, 		['useable'] = true, 	['shouldClose'] = true,		['combinable'] = nil,   ['description'] = 'spin the decks'},
+['campingchair']					= {['name'] = campingchair', 			  	  		['label'] = 'campingchair', 				['weight'] = 500, 		['type'] = 'item', 		['image'] = 'campingchair.png', 				['unique'] = true, 		['useable'] = true, 	['shouldClose'] = true,		['combinable'] = nil,   ['description'] = 'Take a seat'},
 
 
 # Starting the resource
-- add the following to your server.cfg file : ensure rsg_phonograph
+- add the following to your server.cfg file : ensure rsg_campingchair
 - restart your server
 
 # Support
