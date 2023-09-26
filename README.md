@@ -4,7 +4,7 @@
 - add items to your "\rsg-core\shared\items.lua"
 - add images to your "\rsg-inventory\html\images"
 
-['campingchair']					= {['name'] = campingchair', 			  	  		['label'] = 'campingchair', 				['weight'] = 500, 		['type'] = 'item', 		['image'] = 'campingchair.png', 				['unique'] = true, 		['useable'] = true, 	['shouldClose'] = true,		['combinable'] = nil,   ['description'] = 'Take a seat'},
+['campingchair']					= {['name'] = campingchair', 			  	  		['label'] = 'campingchair', 				['weight'] = 500, 		['type'] = 'item', 		['image'] = 'campingchair.png', 				['unique'] = false, 		['useable'] = true, 	['shouldClose'] = true,		['combinable'] = nil,   ['description'] = 'Take a seat'},
 
 
 # Starting the resource
