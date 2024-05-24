@@ -1,5 +1,4 @@
 local RSGCore = exports['rsg-core']:GetCoreObject()
-local xSound = exports.xsound
 local isPlaying = false
 
 RSGCore.Functions.CreateUseableItem("campingchair", function(source, item)
@@ -15,7 +14,7 @@ end)
 
 RegisterNetEvent('rsg_chair:server:pickedup', function(entity)
     local src = source
-    xSound:Destroy(-1, tostring(entity))
+    
 end)
 
 
